@@ -1,13 +1,13 @@
-module.exports = () => ({
+module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
-      host: "dpg-cf5gb41mbjsvujpv3pcg-a.frankfurt-postgres.render.com",
-      port: "5432",
-      database: "glacage_db",
-      user: "admin",
-      password: "oehpxSV0kwzAayGw4nJZL7nWur4gp9cF",
-      ssl: true,
+      host: env("DATABASE_HOST"),
+      port: env.int("DATABASE_PORT"),
+      database: env("DATABASE_NAME"),
+      user: env("DATABASE_USERNAME"),
+      password: env("DATABASE_PASSWORD"),
+      ssl: env.bool("DATABASE_SSL", true) ,
     },
   },
 });
