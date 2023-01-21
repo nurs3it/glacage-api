@@ -24,6 +24,9 @@
     },
     "twitter": {
       "type": "string"
+    },
+    "telegram": {
+      "type": "string"
     }
   }
 }
