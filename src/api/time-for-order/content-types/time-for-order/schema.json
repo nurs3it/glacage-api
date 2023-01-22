@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "time_for_orders",
+  "info": {
+    "singularName": "time-for-order",
+    "pluralName": "time-for-orders",
+    "displayName": "Периоды заказа",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "startTime": {
+      "type": "time",
+      "required": true,
+      "default": "09:00"
+    },
+    "endTime": {
+      "type": "time",
+      "required": true
+    }
+  }
+}
