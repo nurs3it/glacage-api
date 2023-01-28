@@ -21,11 +21,19 @@
       "required": true
     },
     "background": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "payment": {
+      "type": "richtext",
+      "required": true
+    },
+    "delivery": {
+      "type": "richtext",
       "required": true
     }
   }
