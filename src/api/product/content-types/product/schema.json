@@ -47,6 +47,14 @@
     },
     "weight": {
       "type": "float"
+    },
+    "shortDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "composition": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
