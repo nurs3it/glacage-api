@@ -35,6 +35,10 @@
     "delivery": {
       "type": "richtext",
       "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
     }
   }
 }
