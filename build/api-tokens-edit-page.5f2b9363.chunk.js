@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkglacage_api=self.webpackChunkglacage_api||[]).push([[92],{28465:(P,t,e)=>{e.r(t),e.d(t,{default:()=>n});var s=e(67294),E=e(68547),i=e.n(E),_=e(87751),a=e(67375);const n=()=>s.createElement(E.CheckPagePermissions,{permissions:_.Z.settings["api-tokens"].read},s.createElement(a.Z,null))}}]);
