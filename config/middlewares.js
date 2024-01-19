@@ -14,15 +14,6 @@ module.exports = [
       },
     },
   },
-  {
-    name: 'strapi::cors',
-    config: {
-      origin: ['https://glacage.kz', 'http://glacage.kz', 'http://77.243.80.126', 'https://77.243.80.126', 'http://localhost', 'https://localhost'],
-      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
-      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-      keepHeaderOnError: true,
-    },
-  },
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
